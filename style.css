@@ -1,0 +1,179 @@
+*{
+    overflow-x :hidden ;
+    color :#e1e1e1 ;
+    font-family : Ubuntu; 
+}
+a{
+    text-decoration :none ;
+    color : #e1e1e1 ;
+}
+b{
+    font-size :1.2em ;
+}
+h4{
+    letter-spacing :3px ;
+}
+p{
+    font-weight : 120;
+}
+h4{
+    margin-top :-10px ;
+    font-size :30px ;
+}
+h5{
+    font-size :20px ;
+}
+#job{
+    margin-top : -30px ;
+}
+.job{
+    font-family :"Courier New";
+    letter-spacing: 2.5px ;
+}
+body{
+    box-sizing :border-box ;/*  */
+    padding :0 ;
+    margin :0 ;
+    background:linear-gradient(
+        50deg,
+        #006565 80%, #235053 30%);
+    
+}
+#img1{
+    position :absolute ;
+    margin-top:-150px ;
+}
+nav{
+    display :flex ;
+    width :100%;
+}
+.nav-section{
+    padding :.3rem 2rem;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    letter-spacing: 2px;
+}
+
+#link-section{
+    gap: 3rem;
+    justify-content :flex-start ;
+}
+#social-section{
+    gap:2rem;
+    font-size:25px;
+    justify-content :flex-end ;
+}
+
+#link-section{
+    width :60% ;
+}
+#social-section{
+    flex-grow:1;
+}
+#body{
+    display :block ;
+    justify-content :flex-start ;
+    width :60% ;
+   padding-top :2.5rem ;
+}
+#pp{
+    
+    width : 45% ;
+    
+}
+main{
+    padding : 2rem ;
+    display :flex ;
+    align-items:center;
+    justify-content:center;
+    width :100% ;
+}
+box{
+    padding :2rem ;
+    display :flex ;
+    width :100% ;
+}
+
+.title{
+    padding-top:2rem ;
+    padding-left:2rem ;
+    justify-content :center ;
+
+}
+#skil, #wor, #but, .bud{
+    font-family :"Courier New";
+}
+#wor{
+    position :absolute ;
+    margin-top :150px ;
+}
+#skil{
+    margin-left: 25% ;
+    letter-spacing :2px ;
+}
+.box{
+    display :flex ;
+    align-items :center ;
+}
+.skill-section{
+    display :grid;
+    gap: 3rem ;
+}
+.up{
+    display :flex ;
+    flex-direction :column ;
+    width :50% ;
+}
+
+.down{
+    display :flex ;
+    flex-direction :column ;
+    flex-grow :1 ;
+}
+.imct{
+    position :absolute ;
+    
+}
+#ct{
+    position :absolute ;
+    opacity : .1;
+    z-index :-1 ;
+    margin-top :-275px;
+    margin-left :-250px ;
+}
+button{
+    border :1px solid #e1e1e1 ;
+    color :#e1e1e1 ;
+    background-color :#006565 ;
+    padding : 2px 10px ;
+    font-size :1em ;
+    border-radius :3px ;
+    letter-spacing :2px ;
+}
+#but:hover {
+    color: #235053 ;
+    transition :.5s ease-in-out;
+}
+button:hover{
+    background-color: #e1e1e1;
+    transition :.5s ease-in-out;
+}
+.container{
+    padding :2rem ;
+    display :flex ;
+    width :100% ;
+    height : 400px ;
+}
+.portfolio{
+    display :flex ;
+    margin: 0 auto ;
+}
+
+.sk{
+    height: 50px ;
+    width : 50px ;
+}
+footer{
+    padding :2rem ;
+}
